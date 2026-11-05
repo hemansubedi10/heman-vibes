@@ -1,99 +1,166 @@
 <div align="center">
 
-  <img src="dist/logo.svg" alt="HeMan Vibes Logo" width="128" height="128" />
+  <img src="assets/animated-banner.svg" alt="HeMan Vibes Animated Liquid Glass Banner" width="100%" />
 
-  # HeMan Vibes
+  <br />
 
-  **The Ultimate Liquid Glass Desktop Streaming & Media Powerhouse**
-
-  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
-  [![Electron](https://img.shields.io/badge/Electron-Desktop-3178C6?style=for-the-badge&logo=electron&logoColor=white)](https://www.electronjs.org/)
-  [![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-  [![Design](https://img.shields.io/badge/UI-Liquid%20Glass-00d2ff?style=for-the-badge)](https://github.com/hemansubedi10/heman-vibes)
-  [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=for-the-badge)]()
+  [![License: MIT](https://img.shields.io/badge/License-MIT-00d2ff.svg?style=for-the-badge)](LICENSE)
+  [![Platform](https://img.shields.io/badge/Platforms-PC%20Desktop%20%7C%20Smart%20TV-38bdf8?style=for-the-badge)]()
+  [![Electron](https://img.shields.io/badge/Desktop-Electron-3178C6?style=for-the-badge&logo=electron&logoColor=white)](https://www.electronjs.org/)
+  [![Android TV](https://img.shields.io/badge/TV-Android%20%7C%20Firestick%20%7C%20Tizen-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://android.com/tv/)
+  [![UI](https://img.shields.io/badge/Aesthetic-Liquid%20Glass-7000ff?style=for-the-badge)]()
+  [![Author](https://img.shields.io/badge/Author-Heman%20Subedi-ec4899?style=for-the-badge&logo=github)](https://github.com/hemansubedi10)
 
   <p align="center">
-    A next-generation desktop streaming application engineered for movies, TV series, and anime. Designed from the ground up with an ultra-futuristic <b>Liquid Glass</b> aesthetic, built-in session ad-blocking, and seamless offline media downloading.
+    <b>HeMan Vibes</b> is an ultra-futuristic media streaming arena built from the ground up with a signature <b>Liquid Glass</b> design system. Engineered in two dedicated editions: a high-octane <b>PC Desktop application</b> and a 10-foot <b>Smart TV Leanback edition</b> with full remote controller D-pad navigation.
   </p>
 
 </div>
 
 ---
 
-## ✨ Key Features
+# 🚀 Download & Installation Center
 
-### 💎 Signature Liquid Glass UI
-* **Frosted Acrylic Translucency**: Deep layered glass panels with real-time `backdrop-filter: blur(28px) saturate(200%)`.
-* **Atmospheric Liquid Aurora**: Ambient electric cyan (`#00f5ff`) and ultra-violet (`#818cf8`) lighting radiating beneath frosted layers.
-* **Specular Rim Highlights**: Handcrafted chromatic light catch borders mimicking physical optical crystal glass.
-* **Fluid Interactive Controls**: Hover lifts, glowing neon badges, and floating glass pills for search, carousel navigation, and playback controls.
+Choose your target device below for dedicated installation guides and build binaries.
 
-### 🎬 Streaming & Media Hub
-* **Movies & TV Series**: Rich metadata discovery powered by TMDB integration.
-* **Dedicated Anime Experience**: Direct episode management, skip intro support, and synchronized progress tracking.
-* **Multi-Server Streaming**: Zero-lag playback with direct `.m3u8` and HLS streaming protocols.
-* **Automated Subtitles**: Seamless multi-language subtitle retrieval and synchronization.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### 📥 Offline Downloads
-* High-speed fragment-based media downloader with real-time speed, fragment tracking, and completion notifications.
-* Integrated download manager with file location controls and watch status.
+### 🖥️ PC Desktop Edition
+*For Windows, macOS, and Linux*
 
-### 🛡️ Privacy & Ad-Free Architecture
-* Hardware-level session request interceptor that automatically blocks tracking hosts, telemetry, and intrusive ad scripts before they execute.
+#### 📦 Direct Downloads
+* **Windows (x64)**: [**Download `HeMan-Vibes-Setup-1.0.0.exe`**](https://github.com/hemansubedi10/heman-vibes/releases/latest)
+* **macOS (Apple Silicon & Intel)**: [**Download `HeMan-Vibes-1.0.0-universal.dmg`**](https://github.com/hemansubedi10/heman-vibes/releases/latest)
+* **Linux**: [**Download `HeMan-Vibes-1.0.0.AppImage`**](https://github.com/hemansubedi10/heman-vibes/releases/latest)
 
----
-
-## 🚀 Quick Start
-
-### Prerequisites
-* [Node.js](https://nodejs.org/) (v18 or higher)
-* [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-
-### Installation
-
+#### ⚡ Quick Run (From Source)
 ```bash
-# Clone the repository
 git clone https://github.com/hemansubedi10/heman-vibes.git
-
-# Navigate to the project directory
 cd heman-vibes
-
-# Install dependencies
 npm install
-
-# Launch the desktop application
 npm start
 ```
 
+#### ✨ Desktop Features
+* Custom **Liquid Glass** draggable titlebar with live status gem.
+* Background fragment downloader with file management.
+* Ad-blocker running at the Chromium session layer.
+* Hardware-accelerated 4K/60FPS video playback.
+
+</td>
+<td width="50%" valign="top">
+
+### 📺 Smart TV Leanback Edition
+*For Android TV, Google TV, Firestick, Samsung & LG*
+
+#### 📦 Direct Downloads
+* **Universal TV APK**: [**Download `HeMan-Vibes-TV-1.0.0.apk`**](https://github.com/hemansubedi10/heman-vibes/releases/latest)
+* **WebOS Package**: [`tv/webos/appinfo.json`](tv/webos/appinfo.json)
+* **Tizen Package**: [`tv/tizen/config.xml`](tv/tizen/config.xml)
+
+#### 📲 Installation on Television (3 Ways)
+
+**Option 1: Via Downloader App (Firestick / Google TV)**
+1. Open the **Downloader** app on your TV.
+2. Enter the direct APK link or your short code.
+3. Click **Install** when prompted.
+
+**Option 2: Via USB Flash Drive (Sony / TCL / Philips)**
+1. Download `HeMan-Vibes-TV-1.0.0.apk` onto a USB drive.
+2. Plug the USB into your Smart TV.
+3. Open any TV File Manager, click the APK, and choose **Install**.
+
+**Option 3: Any Smart TV Browser (Instant)**
+1. Open the built-in browser on Samsung, LG, or Roku TV.
+2. Visit `https://hemanvibes.app/tv` and pin it to your TV Home Screen.
+
+</td>
+</tr>
+</table>
+
 ---
 
-## 🛠️ Tech Stack
+# 🎮 TV Remote Control Navigation
 
-* **Core Runtime**: [Electron](https://www.electronjs.org/)
-* **Frontend**: [React 18](https://reactjs.org/)
-* **Styling**: Custom Liquid Glass Design System (`liquid-glass.css`) & CSS Variables
-* **Networking**: IPC-based session management and streaming pipelines
+The TV Edition features an automated **Spatial D-Pad Engine** that dynamically computes neighbor elements on remote button presses:
+
+<div align="center">
+  <img src="assets/remote-control-guide.svg" alt="TV Remote Control Navigation Guide" width="100%" />
+</div>
+
+| Remote Button | TV Action | Behavior |
+| :--- | :--- | :--- |
+| **▲ ▼ ◀ ▶ (D-Pad)** | **Spatial Navigate** | Moves glowing liquid cyan focus ring across rows and carousels with smooth auto-scroll. |
+| **OK / Enter** | **Select / Play** | Launches video stream, toggles pause/play, opens detail modals. |
+| **⮌ Back / Return** | **Go Back / Exit** | Dismisses active dialogs, returns to home feed, or exits player. |
+| **⏯ Play / Pause** | **Media Control** | Instant video playback toggle from anywhere. |
 
 ---
 
-## 📁 Project Structure
+# ⚖️ Edition Comparison Matrix
+
+| Feature | 🖥️ PC Desktop Edition | 📺 Smart TV Leanback Edition |
+| :--- | :---: | :---: |
+| **Primary Input** | Mouse & Keyboard | D-Pad TV Remote Control |
+| **Display Mode** | Resizable Window + Fullscreen | 16:9 Fixed Fullscreen Immersive |
+| **Focus Indicator** | Subtle Mouse Hover Sheen | Radiant Liquid Cyan Focus Halo |
+| **Overscan Margins** | Full Border Edge | 48px TV Screen Safe Area Protection |
+| **Offline Media Downloads** | High-Speed Chunked Downloader | Direct Stream Caching |
+| **Ad & Tracker Filtration** | Built-in Session Shield | Hardware Network Filter |
+| **UI Scaling** | 100% Desktop Viewport | 10-Foot Leanback Scaled Typography |
+| **Platform Target** | Windows 10/11, macOS, Linux | Android TV, Google TV, Firestick, Tizen, webOS |
+
+---
+
+## 💎 The Signature Liquid Glass Design System
+
+HeMan Vibes pioneers an original aesthetic system engineered specifically for dark room cinema environments:
+
+* **Frosted Acrylic Translucency**: High-refraction blur panels (`backdrop-filter: blur(28px) saturate(200%)`) that filter ambient video colors behind the interface.
+* **Atmospheric Liquid Aurora**: Multi-layer radial mesh gradients radiating deep cyan (`#00f5ff`) and royal ultra-violet (`#818cf8`) tones.
+* **Specular Rim Highlights**: 1px refractive light borders with dynamic angle gradients mimicking physical optical glass.
+* **Custom HV Monogram**: Handcrafted vector crest with beveled crystal pillars and aerodynamic liquid wings.
+
+---
+
+## 📁 Repository Structure
 
 ```
 heman-vibes/
-├── dist/                     # Production build assets & styles
-│   ├── assets/               # Bundled JavaScript, styles & web fonts
+├── assets/                   # Animated README banners & graphics
+│   ├── animated-banner.svg   # Shimmering liquid aurora SVG banner
+│   └── remote-control-guide.svg # TV remote control interaction map
+│
+├── dist/                     # Production desktop bundles
+│   ├── assets/               # Bundled JavaScript, styles & fonts
 │   ├── sized/                # Multi-resolution icons (16x16 to 512x512)
-│   ├── liquid-glass.css      # Liquid Glass design system
+│   ├── liquid-glass.css      # Core Liquid Glass design system
 │   ├── logo.svg              # Custom HV Liquid Glass vector logo
-│   └── index.html            # Main HTML window template
-├── src/                      # Electron main IPC modules
-│   └── ipc/                  # Media scrapers, downloads, storage & subtitles
-├── index.js                  # Main Electron entry point & window manager
+│   └── index.html            # Main desktop HTML window
+│
+├── tv/                       # Television edition modules
+│   ├── android-tv/           # Android TV & Fire TV Studio project (builds .apk)
+│   │   ├── app/src/main/
+│   │   │   ├── AndroidManifest.xml   # Leanback TV launcher configuration
+│   │   │   ├── java/MainActivity.java # Immersive TV WebView container
+│   │   │   └── res/drawable/tv_banner.png # 16:9 Android TV home banner
+│   │   ├── build.gradle
+│   │   └── settings.gradle
+│   ├── web/                  # 10-foot TV web client
+│   │   ├── index.html        # Smart TV UI showcase
+│   │   ├── tv-liquid-glass.css # 10-foot scaling & focus halo system
+│   │   └── tv-remote-nav.js  # Universal D-pad spatial navigation engine
+│   ├── tizen/config.xml      # Samsung Tizen Smart TV manifest
+│   └── webos/appinfo.json    # LG webOS Smart TV manifest
+│
+├── src/                      # Electron main IPC modules (scrapers, storage, subtitles)
+├── index.js                  # Electron main entry point
 ├── preload.js                # Secure context-bridge IPC bindings
 ├── app.ico                   # Windows multi-resolution icon
-├── rebuild-heman-vibes.ps1   # Quick compilation & packing script
-├── package.json              # App manifests and metadata
-└── README.md                 # Project documentation
+├── rebuild-heman-vibes.ps1   # Compilation script
+└── package.json              # App manifests & scripts
 ```
 
 ---
@@ -108,4 +175,4 @@ heman-vibes/
 
 ## 📄 License
 
-This project is open-source under the [MIT License](LICENSE).
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.

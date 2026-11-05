@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="remote-body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="cyan-glow-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5ff" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+    <filter id="key-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="720" height="280" rx="20" fill="#090d18" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
+
+  <!-- Title & Subtitle -->
+  <text x="36" y="44" fill="#00d2ff" font-family="system-ui, sans-serif" font-size="12" font-weight="700" letter-spacing="2">TELEVISION LEANBACK SYSTEM</text>
+  <text x="36" y="74" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">Universal TV Remote D-Pad Navigation</text>
+
+  <!-- Remote Control Visual Unit (Left) -->
+  <g transform="translate(60, 100)">
+    <!-- Remote Controller Chassis -->
+    <rect x="0" y="0" width="130" height="150" rx="30" fill="url(#remote-body)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" />
+    
+    <!-- Outer D-Pad Ring -->
+    <circle cx="65" cy="75" r="48" fill="#0a0f1d" stroke="rgba(0,210,255,0.4)" stroke-width="1.5" />
+
+    <!-- D-Pad Arrows -->
+    <path d="M 65,34 L 71,44 L 59,44 Z" fill="#00d2ff" filter="url(#key-glow)" /> <!-- Up -->
+    <path d="M 65,116 L 71,106 L 59,106 Z" fill="#00d2ff" filter="url(#key-glow)" /> <!-- Down -->
+    <path d="M 24,75 L 34,69 L 34,81 Z" fill="#00d2ff" filter="url(#key-glow)" /> <!-- Left -->
+    <path d="M 106,75 L 96,69 L 96,81 Z" fill="#00d2ff" filter="url(#key-glow)" /> <!-- Right -->
+
+    <!-- Center OK / Select Button -->
+    <circle cx="65" cy="75" r="20" fill="url(#cyan-glow-line)" filter="url(#key-glow)" />
+    <text x="65" y="80" text-anchor="middle" fill="#ffffff" font-family="system-ui" font-size="11" font-weight="900">OK</text>
+  </g>
+
+  <!-- Key Explanation Cards (Right) -->
+  <g transform="translate(230, 95)">
+    <!-- Row 1: D-PAD ARROWS -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="450" height="42" rx="10" fill="rgba(15, 23, 42, 0.65)" stroke="rgba(255,255,255,0.08)" />
+      <rect x="8" y="7" width="80" height="28" rx="6" fill="rgba(0, 210, 255, 0.15)" stroke="#00d2ff" stroke-width="1" />
+      <text x="48" y="25" text-anchor="middle" fill="#00d2ff" font-family="system-ui" font-size="11" font-weight="700">▲ ▼ ◀ ▶</text>
+      <text x="100" y="26" fill="#f8fafc" font-family="system-ui" font-size="13" font-weight="600">Directional Navigation</text>
+      <text x="270" y="26" fill="#94a3b8" font-family="system-ui" font-size="12">Moves liquid glow focus ring across rows</text>
+    </g>
+
+    <!-- Row 2: OK / SELECT -->
+    <g transform="translate(0, 48)">
+      <rect x="0" y="0" width="450" height="42" rx="10" fill="rgba(15, 23, 42, 0.65)" stroke="rgba(255,255,255,0.08)" />
+      <rect x="8" y="7" width="80" height="28" rx="6" fill="rgba(0, 210, 255, 0.15)" stroke="#00d2ff" stroke-width="1" />
+      <text x="48" y="25" text-anchor="middle" fill="#00d2ff" font-family="system-ui" font-size="11" font-weight="700">OK / ENTER</text>
+      <text x="100" y="26" fill="#f8fafc" font-family="system-ui" font-size="13" font-weight="600">Select &amp; Play</text>
+      <text x="270" y="26" fill="#94a3b8" font-family="system-ui" font-size="12">Instant launch, pause/play, open details</text>
+    </g>
+
+    <!-- Row 3: BACK / ESCAPE -->
+    <g transform="translate(0, 96)">
+      <rect x="0" y="0" width="450" height="42" rx="10" fill="rgba(15, 23, 42, 0.65)" stroke="rgba(255,255,255,0.08)" />
+      <rect x="8" y="7" width="80" height="28" rx="6" fill="rgba(129, 140, 248, 0.15)" stroke="#818cf8" stroke-width="1" />
+      <text x="48" y="25" text-anchor="middle" fill="#818cf8" font-family="system-ui" font-size="11" font-weight="700">⮌ BACK</text>
+      <text x="100" y="26" fill="#f8fafc" font-family="system-ui" font-size="13" font-weight="600">Return &amp; Close</text>
+      <text x="270" y="26" fill="#94a3b8" font-family="system-ui" font-size="12">Closes modals, exits player, goes to home</text>
+    </g>
+  </g>
+</svg>

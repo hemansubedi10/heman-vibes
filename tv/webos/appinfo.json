@@ -1,0 +1,15 @@
+{
+  "id": "com.hemanvibes.tv",
+  "version": "1.0.0",
+  "vendor": "Heman Subedi",
+  "type": "web",
+  "main": "index.html",
+  "title": "HeMan Vibes TV",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "resolution": "1920x1080",
+  "uiRevision": 2,
+  "requiredPermissions": [
+    "network"
+  ]
+}
