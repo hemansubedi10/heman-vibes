@@ -4,6 +4,17 @@
 
   <br />
 
+  <a href="https://github.com/hemansubedi10/heman-vibes/releases/download/v1.0.0/HeMan-Vibes-Windows-v1.0.0.zip">
+    <img src="https://img.shields.io/badge/⬇️_DIRECT_DOWNLOAD-PC_WINDOWS_PORTABLE-00d2ff?style=for-the-badge&logo=windows&logoColor=white" height="44" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/hemansubedi10/heman-vibes/releases/download/v1.0.0/HeMan-Vibes-TV-v1.0.0.zip">
+    <img src="https://img.shields.io/badge/⬇️_DIRECT_DOWNLOAD-SMART_TV_BUNDLE-818cf8?style=for-the-badge&logo=android&logoColor=white" height="44" />
+  </a>
+
+  <br /><br />
+
+  [![Release](https://img.shields.io/github/v/release/hemansubedi10/heman-vibes?style=for-the-badge&color=00f5ff&label=Latest%20Release)](https://github.com/hemansubedi10/heman-vibes/releases/latest)
   [![License: MIT](https://img.shields.io/badge/License-MIT-00d2ff.svg?style=for-the-badge)](LICENSE)
   [![Platform](https://img.shields.io/badge/Platforms-PC%20Desktop%20%7C%20Smart%20TV-38bdf8?style=for-the-badge)]()
   [![Electron](https://img.shields.io/badge/Desktop-Electron-3178C6?style=for-the-badge&logo=electron&logoColor=white)](https://www.electronjs.org/)
@@ -21,19 +32,22 @@
 
 # 🚀 Download & Installation Center
 
-Choose your target device below for dedicated installation guides and build binaries.
+Click any button below to download the verified release directly for your device.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### 🖥️ PC Desktop Edition
-*For Windows, macOS, and Linux*
+*For Windows 10/11, macOS, and Linux*
 
-#### 📦 Direct Downloads
-* **Windows (x64)**: [**Download `HeMan-Vibes-Setup-1.0.0.exe`**](https://github.com/hemansubedi10/heman-vibes/releases/latest)
-* **macOS (Apple Silicon & Intel)**: [**Download `HeMan-Vibes-1.0.0-universal.dmg`**](https://github.com/hemansubedi10/heman-vibes/releases/latest)
-* **Linux**: [**Download `HeMan-Vibes-1.0.0.AppImage`**](https://github.com/hemansubedi10/heman-vibes/releases/latest)
+#### 📦 Direct Download
+👉 [**⬇️ Download `HeMan-Vibes-Windows-v1.0.0.zip` (141 MB)**](https://github.com/hemansubedi10/heman-vibes/releases/download/v1.0.0/HeMan-Vibes-Windows-v1.0.0.zip)
+
+#### 🚀 How to Run on PC
+1. Download [**`HeMan-Vibes-Windows-v1.0.0.zip`**](https://github.com/hemansubedi10/heman-vibes/releases/download/v1.0.0/HeMan-Vibes-Windows-v1.0.0.zip).
+2. Right-click and **Extract All**.
+3. Double-click **`HeMan Vibes.exe`** to start streaming immediately — zero setup required!
 
 #### ⚡ Quick Run (From Source)
 ```bash
@@ -43,7 +57,7 @@ npm install
 npm start
 ```
 
-#### ✨ Desktop Features
+#### ✨ Desktop Highlights
 * Custom **Liquid Glass** draggable titlebar with live status gem.
 * Background fragment downloader with file management.
 * Ad-blocker running at the Chromium session layer.
@@ -55,22 +69,21 @@ npm start
 ### 📺 Smart TV Leanback Edition
 *For Android TV, Google TV, Firestick, Samsung & LG*
 
-#### 📦 Direct Downloads
-* **Universal TV APK**: [**Download `HeMan-Vibes-TV-1.0.0.apk`**](https://github.com/hemansubedi10/heman-vibes/releases/latest)
-* **WebOS Package**: [`tv/webos/appinfo.json`](tv/webos/appinfo.json)
-* **Tizen Package**: [`tv/tizen/config.xml`](tv/tizen/config.xml)
+#### 📦 Direct Download
+👉 [**⬇️ Download `HeMan-Vibes-TV-v1.0.0.zip` (TV Bundle)**](https://github.com/hemansubedi10/heman-vibes/releases/download/v1.0.0/HeMan-Vibes-TV-v1.0.0.zip)
 
 #### 📲 Installation on Television (3 Ways)
 
 **Option 1: Via Downloader App (Firestick / Google TV)**
 1. Open the **Downloader** app on your TV.
-2. Enter the direct APK link or your short code.
+2. Enter the download URL:  
+   `https://github.com/hemansubedi10/heman-vibes/releases/download/v1.0.0/HeMan-Vibes-TV-v1.0.0.zip`
 3. Click **Install** when prompted.
 
 **Option 2: Via USB Flash Drive (Sony / TCL / Philips)**
-1. Download `HeMan-Vibes-TV-1.0.0.apk` onto a USB drive.
+1. Copy the TV bundle onto any USB flash drive.
 2. Plug the USB into your Smart TV.
-3. Open any TV File Manager, click the APK, and choose **Install**.
+3. Open any TV File Manager, choose the APK, and click **Install**.
 
 **Option 3: Any Smart TV Browser (Instant)**
 1. Open the built-in browser on Samsung, LG, or Roku TV.
@@ -130,7 +143,7 @@ HeMan Vibes pioneers an original aesthetic system engineered specifically for da
 ```
 heman-vibes/
 ├── assets/                   # Animated README banners & graphics
-│   ├── animated-banner.svg   # Shimmering liquid aurora SVG banner
+│   ├── animated-banner.svg   # Clickable shimmering liquid aurora SVG banner
 │   └── remote-control-guide.svg # TV remote control interaction map
 │
 ├── dist/                     # Production desktop bundles
