@@ -1,0 +1,26 @@
+{
+  "name": "heman-vibes",
+  "version": "1.0.0",
+  "description": "HeMan Vibes — Next-Generation Liquid Glass Media & Streaming Desktop Application",
+  "author": {
+    "name": "Heman Subedi",
+    "email": "hemansubedi66@gmail.com",
+    "url": "https://github.com/hemansubedi10"
+  },
+  "homepage": "https://github.com/hemansubedi10/heman-vibes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemansubedi10/heman-vibes.git"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
